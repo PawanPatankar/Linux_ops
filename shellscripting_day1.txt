@@ -1,0 +1,20 @@
+root@ip-172-31-30-119:~# cat var.sh
+#!/bin/bash
+
+# this script is for local variable and env var
+
+name=devops
+echo "hello $name"
+
+
+echo $HOME
+echo $PWD
+echo $BASH
+
+
+root@ip-172-31-30-119:~# cat hello.sh
+#!/bin/bash
+
+# this script is for hello world
+
+echo "hello devops"
